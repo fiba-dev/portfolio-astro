@@ -24,6 +24,8 @@ const { description, title } = Astro.props
 <style is:global>
 	:root {
 		color-scheme: light dark;
+		scroll-behavior: smooth;
+		scroll-snap-type: y mandatory;
 	}
 	html {
 		font-family:'Onest Variable';
@@ -36,5 +38,7 @@ body {
 	background-color: rgb(54, 54, 54);
 	min-width: 100vw;
 	min-height: 100vh;
+
+	
 }
 </style>
