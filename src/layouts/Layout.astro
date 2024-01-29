@@ -14,12 +14,12 @@ const { description, title } = Astro.props
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	  </head>
-	
+	  <Header></Header>
 	<body>
 	<slot/>
 	
 	</body>
-	<Header></Header>
+	
 </html>
 <style is:global>
 	:root {
