@@ -14,11 +14,12 @@ const { description, title } = Astro.props
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	  </head>
-	<Header></Header>
+	
 	<body>
 	<slot/>
 	
 	</body>
+	<Header></Header>
 </html>
 <style is:global>
 	:root {
@@ -32,7 +33,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: rgb(255, 255, 255);
-	min-width: 100vh;
+	background-color: rgb(54, 54, 54);
+	min-width: 100vw;
+	min-height: 100vh;
 }
 </style>
