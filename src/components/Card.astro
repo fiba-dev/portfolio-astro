@@ -1,24 +1,13 @@
----
-interface Props {
-	title: string;
-	body: string;
-	href: string;
-}
 
-const { href, title, body } = Astro.props;
----
 
-<li class="link-card">
-	<a href={href}>
-		<h2>
-			{title}
-			<span>&rarr;</span>
-		</h2>
-		<p>
-			{body}
-		</p>
-	</a>
-</li>
+<main>
+	<div class="bg-gray-300 opacity-100 w-[20vh] h-[20vh] rounded-full">
+    <img class="opacity-100 w-[20vh] h-[20vh] rounded-full" src="https://res.cloudinary.com/fiba06-dev/image/upload/v1660342595/portfolio/perfil-linkedin-removebg_gdv0zt.png">
+	</div>
+	
+</main>
+	
+
 <style>
 	.link-card {
 		list-style: none;
